@@ -171,13 +171,4 @@ export function initTeamFilter() {
   applyFilter(initialFilter);
 }
 
-// ─── Past Council 3D Card Flip ─────────────────────────────────
 
-export function initCouncilFlip() {
-  document.querySelectorAll('.council-member-mini').forEach((card) => {
-    card.addEventListener('click', (e) => {
-      if (e.target.closest('.social-link')) return;
-      card.classList.toggle('flipped');
-    });
-  });
-}

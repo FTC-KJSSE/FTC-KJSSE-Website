@@ -5,7 +5,7 @@
 
 import { initCounterAnimation, initEventGallery, initScrollReveal } from './components/hero/effects.js';
 import { initTickerTape } from './components/ticker/ticker-tape.js';
-import { initAccordion, initCouncilFlip, initMobileMenu, initNavbar, initScrollSpy, initSmoothScroll, initTeamFilter } from './components/navbar/navigation.js';
+import { initAccordion, initMobileMenu, initNavbar, initScrollSpy, initSmoothScroll, initTeamFilter } from './components/navbar/navigation.js';
 
 // ─── Initialize Everything ───────────────────────────────────────
 
@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollSpy();
   initAccordion();
   initTeamFilter();
-  initCouncilFlip();
 
   // Animations & Gallery
   initScrollReveal();
