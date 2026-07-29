@@ -1,20 +1,17 @@
-# FTC KJSSE Website
+# The Official Website of FTC KJSSE
+> Finance & Tech Council - K. J. Somaiya School of Engineering
 
-Static website for the FTC KJSSE Finance & Tech Council.
+**Live Website:** [ftc-kjsse.vercel.app](https://ftc-kjsse.vercel.app)
 
-## Structure
+---
 
-- `index.html` contains the page markup.
-- `css/main.css` imports modular styles from `base`, `components`, `sections`, and `utilities`.
-- `js/app.js` is the entry point for feature modules.
-- `js/features` contains UI behavior.
-- `js/services` contains API/data helpers.
-- `assets/images` contains static image assets.
+### Website Team :
 
-## Local Preview
+1. [Arav Arun](https://github.com/Arav-Arun)
+2. [Jeh Dadina](https://github.com/jehdadina-jpg)
+---
 
-```sh
-python3 -m http.server 4173
-```
+### Contributions
 
-Open `http://localhost:4173/`.
+We're keeping Pull Requests limited to FTC KJSSE members for now.
+But don't let that stop you - fork the repo, play around with it, and build something awesome!
