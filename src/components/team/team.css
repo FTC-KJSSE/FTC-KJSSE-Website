@@ -39,11 +39,12 @@
 .team-tab.active::after {
   content: '';
   position: absolute;
-  bottom: -17px;
-  left: 0;
-  right: 0;
+  bottom: 0;
+  left: 8px;
+  right: 8px;
   height: 2px;
-  background: var(--text-primary);
+  background: var(--bull-green);
+  border-radius: 2px;
 }
 
 .team-tree {
