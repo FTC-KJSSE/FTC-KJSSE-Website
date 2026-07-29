@@ -235,7 +235,7 @@ export async function fetchTickerData() {
     try {
       const data = await fetchYahooQuote(stock.symbol);
       return formatTickerItem(stock.name, data.price, data.changePercent);
-    } catch (e) {
+    } catch {
       return formatTickerItem(stock.name, stock.price, stock.changePercent);
     }
   });
