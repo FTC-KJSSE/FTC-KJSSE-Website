@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FTC KJSSE - Finance & Tech Council. Where Finance Meets Technology. A student-led council bridging the worlds of finance and technology at KJSSE, Mumbai." />
+  <meta name="keywords" content="FTC, KJSSE, Finance, Technology, Council, Fintech, Stock Market, Mumbai, KJSCE" />
+  <meta name="author" content="FTC KJSSE" />
+  <meta name="theme-color" content="#00c853" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FTC KJSSE" />
+  <meta property="og:description" content="Where Finance Meets Technology. Student-led council at KJSSE, Mumbai." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/brand/ftc-logo.webp" />
+
+  <title>FTC KJSSE</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/brand/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png" />
+  <link rel="stylesheet" href="src/styles/main.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#team">Team</a></li>
+        <li><a href="#events">Our Events</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#past-council">Past&nbsp;Committee&nbsp;Members</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="nav-links" aria-expanded="false">
+        <div class="hamburger-lines">
+          <span></span><span></span><span></span>
+        </div>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero bg-grid" id="hero">
+
+      <div class="hero-content">
+        <img src="assets/brand/ftc-logo.webp" alt="FTC KJSSE Logo - Bull and Bear" class="hero-logo" />
+
+        <h1 class="hero-title">
+          <span class="green">Finance</span> &amp; <span class="red">Tech</span> Council
+        </h1>
+
+        <p class="hero-tagline" id="hero-tagline">
+          Where Finance Meets Technology<span class="cursor"></span>
+        </p>
+
+        <p class="hero-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          KJSSE, Mumbai
+        </p>
+
+        <!-- Stats bar -->
+        <div class="stats-bar reveal" id="stats-bar">
+          <div class="stat-item">
+            <div class="stat-number" data-target="100" data-suffix="+">0</div>
+            <div class="stat-label">Participants Reached</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="6">0</div>
+            <div class="stat-label">Domains</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="3">0</div>
+            <div class="stat-label">Documents Published</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="27">0</div>
+            <div class="stat-label">Council Members</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== FINTECH CITYSCAPE SVG ===== -->
+      <div class="hero-illustration">
+        <svg viewBox="0 0 1440 380" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#0a0f1a" stop-opacity="0"/>
+              <stop offset="100%" stop-color="#0a0f1a" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#0b1a13" stop-opacity="0.8"/>
+              <stop offset="100%" stop-color="#06120d" stop-opacity="0.95"/>
+            </linearGradient>
+            <linearGradient id="buildingGrad1" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1a2e3e"/>
+              <stop offset="100%" stop-color="#0f1923"/>
+            </linearGradient>
+            <linearGradient id="buildingGrad2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1e3345"/>
+              <stop offset="100%" stop-color="#12202d"/>
+            </linearGradient>
+            <linearGradient id="exchangeGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1a3040"/>
+              <stop offset="100%" stop-color="#0e1e2b"/>
+            </linearGradient>
+            <linearGradient id="candleGreen" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#00c853"/>
+              <stop offset="100%" stop-color="#009624"/>
+            </linearGradient>
+            <linearGradient id="candleRed" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#ff1744"/>
+              <stop offset="100%" stop-color="#d50000"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Sky background -->
+          <rect width="1440" height="380" fill="url(#skyGrad)"/>
+
+          <!-- Clean Financial Chart Grid & Red/Green Candlesticks -->
+          <g opacity="0.22">
+            <!-- Grid Lines -->
+            <line x1="0" y1="40" x2="1440" y2="40" stroke="#00c853" stroke-dasharray="3 3" stroke-width="0.5" opacity="0.4"/>
+            <line x1="0" y1="80" x2="1440" y2="80" stroke="#00c853" stroke-dasharray="3 3" stroke-width="0.5" opacity="0.4"/>
+            <line x1="0" y1="120" x2="1440" y2="120" stroke="#00c853" stroke-dasharray="3 3" stroke-width="0.5" opacity="0.3"/>
+            
+            <!-- Red & Green Candlestick Chart Icons - Far Left Cluster -->
+            <g transform="translate(45, 25)">
+              <line x1="5" y1="0" x2="5" y2="70" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="15" width="6" height="35" rx="1" fill="#00c853"/>
+            </g>
+            <g transform="translate(80, 25)">
+              <line x1="5" y1="5" x2="5" y2="75" stroke="#ff1744" stroke-width="1"/>
+              <rect x="2" y="20" width="6" height="28" rx="1" fill="#ff1744"/>
+            </g>
+            <g transform="translate(115, 25)">
+              <line x1="5" y1="0" x2="5" y2="65" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="10" width="6" height="42" rx="1" fill="#00c853"/>
+            </g>
+            <g transform="translate(150, 25)">
+              <line x1="5" y1="10" x2="5" y2="80" stroke="#ff1744" stroke-width="1"/>
+              <rect x="2" y="25" width="6" height="30" rx="1" fill="#ff1744"/>
+            </g>
+
+            <!-- Red & Green Candlestick Chart Icons - Mid Left Cluster -->
+            <g transform="translate(380, 20)">
+              <line x1="5" y1="0" x2="5" y2="60" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="12" width="6" height="32" rx="1" fill="#00c853"/>
+            </g>
+            <g transform="translate(430, 20)">
+              <line x1="5" y1="5" x2="5" y2="65" stroke="#ff1744" stroke-width="1"/>
+              <rect x="2" y="18" width="6" height="25" rx="1" fill="#ff1744"/>
+            </g>
+            <g transform="translate(480, 20)">
+              <line x1="5" y1="0" x2="5" y2="55" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="8" width="6" height="36" rx="1" fill="#00c853"/>
+            </g>
+
+            <!-- Red & Green Candlestick Chart Icons - Mid Right Cluster -->
+            <g transform="translate(940, 20)">
+              <line x1="5" y1="0" x2="5" y2="60" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="10" width="6" height="35" rx="1" fill="#00c853"/>
+            </g>
+            <g transform="translate(990, 20)">
+              <line x1="5" y1="5" x2="5" y2="65" stroke="#ff1744" stroke-width="1"/>
+              <rect x="2" y="20" width="6" height="26" rx="1" fill="#ff1744"/>
+            </g>
+            <g transform="translate(1040, 20)">
+              <line x1="5" y1="0" x2="5" y2="55" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="12" width="6" height="30" rx="1" fill="#00c853"/>
+            </g>
+
+            <!-- Red & Green Candlestick Chart Icons - Far Right Cluster -->
+            <g transform="translate(1270, 15)">
+              <line x1="5" y1="0" x2="5" y2="65" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="8" width="6" height="40" rx="1" fill="#00c853"/>
+            </g>
+            <g transform="translate(1305, 15)">
+              <line x1="5" y1="5" x2="5" y2="70" stroke="#ff1744" stroke-width="1"/>
+              <rect x="2" y="18" width="6" height="28" rx="1" fill="#ff1744"/>
+            </g>
+            <g transform="translate(1340, 15)">
+              <line x1="5" y1="0" x2="5" y2="60" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="10" width="6" height="34" rx="1" fill="#00c853"/>
+            </g>
+            <g transform="translate(1375, 15)">
+              <line x1="5" y1="0" x2="5" y2="55" stroke="#00c853" stroke-width="1"/>
+              <rect x="2" y="5" width="6" height="38" rx="1" fill="#00c853"/>
+            </g>
+          </g>
+
+          <!-- Ultra-Smooth Cubic Bezier End-to-End Stock Trendline Wave -->
+          <path d="M 0,110 C 240,85 480,95 720,70 C 960,45 1200,55 1440,25" fill="none" stroke="#00c853" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.3"/>
+
+          <!-- Ground plane -->
+          <rect x="0" y="280" width="1440" height="100" fill="url(#groundGrad)"/>
+          <line x1="0" y1="280" x2="1440" y2="280" stroke="#00c853" stroke-opacity="0.15" stroke-width="1"/>
+
+          <!-- Circuit board paths in ground -->
+          <g class="circuit-path" stroke="#00c853" stroke-opacity="0.12" stroke-width="1.5" fill="none">
+            <path d="M0,310 H120 V320 H300 V300 H420 V330 H540 V310 H660"/>
+            <path d="M660,310 H780 V325 H900 V305 H1020 V320 H1140 V310 H1440"/>
+            <path d="M200,340 H350 V350 H500 V335 H650 V350 H800"/>
+            <path d="M800,350 H950 V340 H1100 V355 H1250 V340 H1440"/>
+          </g>
+          <!-- Circuit nodes -->
+          <g fill="#00c853" fill-opacity="0.25">
+            <circle cx="120" cy="310" r="3"/><circle cx="300" cy="320" r="3"/>
+            <circle cx="420" cy="300" r="3"/><circle cx="540" cy="330" r="3"/>
+            <circle cx="780" cy="310" r="3"/><circle cx="900" cy="325" r="3"/>
+            <circle cx="1020" cy="305" r="3"/><circle cx="1140" cy="320" r="3"/>
+            <circle cx="350" cy="340" r="2"/><circle cx="650" cy="350" r="2"/>
+            <circle cx="950" cy="340" r="2"/><circle cx="1250" cy="355" r="2"/>
+          </g>
+
+          <!-- ---- BUILDINGS ---- -->
+
+          <!-- Far left building - slim tower -->
+          <rect x="60" y="160" width="45" height="120" rx="2" fill="url(#buildingGrad1)"/>
+          <rect x="67" y="130" width="30" height="30" rx="1" fill="#162838"/>
+          <rect class="window-glow" x="72" y="175" width="5" height="5" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="85" y="175" width="5" height="5" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="72" y="195" width="5" height="5" fill="#ff1744" opacity="0.4"/>
+          <rect class="window-glow" x="85" y="195" width="5" height="5" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="72" y="215" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="85" y="215" width="5" height="5" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="72" y="235" width="5" height="5" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="85" y="255" width="5" height="5" fill="#00c853" opacity="0.5"/>
+
+          <!-- Left mid building - wider -->
+          <rect x="140" y="130" width="70" height="150" rx="2" fill="url(#buildingGrad2)"/>
+          <rect class="window-glow" x="152" y="145" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="168" y="145" width="6" height="6" fill="#00c853" opacity="0.7"/>
+          <rect class="window-glow" x="184" y="145" width="6" height="6" fill="#ff1744" opacity="0.4"/>
+          <rect class="window-glow" x="152" y="165" width="6" height="6" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="168" y="165" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="184" y="165" width="6" height="6" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="152" y="185" width="6" height="6" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="168" y="185" width="6" height="6" fill="#ff1744" opacity="0.5"/>
+          <rect class="window-glow" x="184" y="185" width="6" height="6" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="152" y="205" width="6" height="6" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="168" y="205" width="6" height="6" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="184" y="205" width="6" height="6" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="152" y="225" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="168" y="225" width="6" height="6" fill="#00c853" opacity="0.7"/>
+          <rect class="window-glow" x="152" y="245" width="6" height="6" fill="#ff1744" opacity="0.4"/>
+          <rect class="window-glow" x="168" y="245" width="6" height="6" fill="#00c853" opacity="0.4"/>
+
+          <!-- Left small building -->
+          <rect x="240" y="210" width="50" height="70" rx="2" fill="#162838"/>
+          <rect class="window-glow" x="252" y="220" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="268" y="220" width="5" height="5" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="252" y="240" width="5" height="5" fill="#ffd600" opacity="0.4"/>
+          <rect class="window-glow" x="268" y="240" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="252" y="260" width="5" height="5" fill="#00c853" opacity="0.4"/>
+
+          <!-- ===== CENTRAL EXCHANGE BUILDING ===== -->
+
+          <rect x="540" y="100" width="360" height="180" rx="2" fill="url(#exchangeGrad)"/>
+          <!-- Pediment (triangle roof) -->
+          <polygon points="540,100 720,40 900,100" fill="#1e3848" stroke="#00c853" stroke-opacity="0.2" stroke-width="1"/>
+          <!-- Columns -->
+          <rect x="550" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="585" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="620" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="655" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="775" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="810" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="845" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <rect x="880" y="100" width="10" height="175" fill="#1e3848" opacity="0.8"/>
+          <!-- Tall Slim Rupee Symbol (Centered on exchange entrance) -->
+          <text x="720" y="185" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="120" font-weight="300" fill="#22c55e" opacity="0.22" text-anchor="middle" dominant-baseline="central" transform="scale(0.82, 1.28)" transform-origin="720px 185px">₹</text>
+          <!-- Exchange windows (Perfectly Centered Between Columns) -->
+          <rect class="window-glow" x="570" y="135" width="6" height="8" fill="#ffd600" opacity="0.4"/>
+          <rect class="window-glow" x="605" y="135" width="6" height="8" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="640" y="135" width="6" height="8" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="795" y="135" width="6" height="8" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="830" y="135" width="6" height="8" fill="#ffd600" opacity="0.4"/>
+          <rect class="window-glow" x="865" y="135" width="6" height="8" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="570" y="165" width="6" height="8" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="605" y="165" width="6" height="8" fill="#ff1744" opacity="0.3"/>
+          <rect class="window-glow" x="640" y="165" width="6" height="8" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="795" y="165" width="6" height="8" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="830" y="165" width="6" height="8" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="865" y="165" width="6" height="8" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="570" y="195" width="6" height="8" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="605" y="195" width="6" height="8" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="640" y="195" width="6" height="8" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="795" y="195" width="6" height="8" fill="#ff1744" opacity="0.3"/>
+          <rect class="window-glow" x="830" y="195" width="6" height="8" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="865" y="195" width="6" height="8" fill="#00c853" opacity="0.6"/>
+          <!-- Steps -->
+          <rect x="520" y="275" width="400" height="5" fill="#1a2e3e"/>
+          <rect x="530" y="270" width="380" height="5" fill="#1e3848"/>
+
+          <!-- Right buildings -->
+          <rect x="1140" y="150" width="55" height="130" rx="2" fill="url(#buildingGrad1)"/>
+          <rect class="window-glow" x="1150" y="165" width="5" height="5" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="1165" y="165" width="5" height="5" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="1178" y="165" width="5" height="5" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="1150" y="185" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1165" y="185" width="5" height="5" fill="#ff1744" opacity="0.4"/>
+          <rect class="window-glow" x="1178" y="185" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1150" y="205" width="5" height="5" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="1165" y="205" width="5" height="5" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="1150" y="225" width="5" height="5" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="1165" y="225" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1150" y="245" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1178" y="245" width="5" height="5" fill="#ff1744" opacity="0.3"/>
+
+          <!-- Far right building -->
+          <rect x="1220" y="105" width="80" height="175" rx="2" fill="url(#buildingGrad2)"/>
+          <!-- Antenna -->
+          <line x1="1260" y1="60" x2="1260" y2="105" stroke="#1e3848" stroke-width="3"/>
+          <circle cx="1260" cy="58" r="4" fill="#ff1744" opacity="0.7" class="window-glow"/>
+          <rect class="window-glow" x="1232" y="120" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1250" y="120" width="6" height="6" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="1268" y="120" width="6" height="6" fill="#ffd600" opacity="0.4"/>
+          <rect class="window-glow" x="1286" y="120" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1232" y="145" width="6" height="6" fill="#ff1744" opacity="0.4"/>
+          <rect class="window-glow" x="1250" y="145" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1268" y="145" width="6" height="6" fill="#00c853" opacity="0.7"/>
+          <rect class="window-glow" x="1286" y="145" width="6" height="6" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="1232" y="170" width="6" height="6" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="1250" y="170" width="6" height="6" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="1268" y="170" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1286" y="170" width="6" height="6" fill="#ff1744" opacity="0.4"/>
+          <rect class="window-glow" x="1232" y="195" width="6" height="6" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="1250" y="195" width="6" height="6" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="1268" y="195" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1286" y="195" width="6" height="6" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="1232" y="220" width="6" height="6" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="1250" y="220" width="6" height="6" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1268" y="220" width="6" height="6" fill="#ff1744" opacity="0.3"/>
+
+          <!-- Far right small building -->
+          <rect x="1340" y="200" width="60" height="80" rx="2" fill="#162838"/>
+          <rect class="window-glow" x="1352" y="215" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1372" y="215" width="5" height="5" fill="#00c853" opacity="0.6"/>
+          <rect class="window-glow" x="1352" y="235" width="5" height="5" fill="#ffd600" opacity="0.3"/>
+          <rect class="window-glow" x="1372" y="235" width="5" height="5" fill="#00c853" opacity="0.4"/>
+          <rect class="window-glow" x="1352" y="255" width="5" height="5" fill="#00c853" opacity="0.5"/>
+          <rect class="window-glow" x="1372" y="255" width="5" height="5" fill="#ff1744" opacity="0.3"/>
+
+
+
+          <!-- ===== FRONT-LAYERED BEAR & BULL (STANDING FIRMLY ON GREEN GROUND LINE, FACING EACH OTHER) ===== -->
+          <!-- RED BEAR (LEFT - FACING RIGHT TOWARDS BULL, SHIFTED LEFT & DOWN) -->
+          <g class="bear-anim">
+            <image href="assets/brand/bear-red.webp" x="320" y="139" width="160" height="160"/>
+          </g>
+
+          <!-- GREEN BULL (RIGHT - FACING LEFT TOWARDS BEAR, SHIFTED DOWN) -->
+          <g class="bull-anim">
+            <image href="assets/brand/bull-green.webp" x="960" y="139" width="160" height="160"/>
+          </g>
+
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========== TICKER TAPE ========== -->
+    <div class="ticker-tape" id="ticker-tape">
+      <div class="ticker-track" id="ticker-track">
+        <div class="ticker-item"><span class="ticker-name">NIFTY 50</span> <span class="ticker-price">₹24,750.50</span> <span class="ticker-change up">▲ +0.45%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">SENSEX</span> <span class="ticker-price">₹81,400.20</span> <span class="ticker-change up">▲ +0.38%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">RELIANCE</span> <span class="ticker-price">₹3,120.40</span> <span class="ticker-change up">▲ +0.85%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">TCS</span> <span class="ticker-price">₹4,280.15</span> <span class="ticker-change down">▼ -0.32%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">HDFCBANK</span> <span class="ticker-price">₹1,650.80</span> <span class="ticker-change up">▲ +0.62%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">INFY</span> <span class="ticker-price">₹1,845.20</span> <span class="ticker-change up">▲ +1.15%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">ICICIBANK</span> <span class="ticker-price">₹1,210.50</span> <span class="ticker-change up">▲ +0.40%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">TATAMOTORS</span> <span class="ticker-price">₹1,015.30</span> <span class="ticker-change down">▼ -0.75%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">SBIN</span> <span class="ticker-price">₹845.60</span> <span class="ticker-change up">▲ +0.55%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">BHARTIARTL</span> <span class="ticker-price">₹1,480.00</span> <span class="ticker-change up">▲ +1.05%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">ITC</span> <span class="ticker-price">₹495.25</span> <span class="ticker-change down">▼ -0.15%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">L&amp;T</span> <span class="ticker-price">₹3,620.10</span> <span class="ticker-change up">▲ +0.90%</span></div>
+        <span class="ticker-separator">│</span>
+        <!-- Duplicate set for seamless continuous loop -->
+        <div class="ticker-item"><span class="ticker-name">NIFTY 50</span> <span class="ticker-price">₹24,750.50</span> <span class="ticker-change up">▲ +0.45%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">SENSEX</span> <span class="ticker-price">₹81,400.20</span> <span class="ticker-change up">▲ +0.38%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">RELIANCE</span> <span class="ticker-price">₹3,120.40</span> <span class="ticker-change up">▲ +0.85%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">TCS</span> <span class="ticker-price">₹4,280.15</span> <span class="ticker-change down">▼ -0.32%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">HDFCBANK</span> <span class="ticker-price">₹1,650.80</span> <span class="ticker-change up">▲ +0.62%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">INFY</span> <span class="ticker-price">₹1,845.20</span> <span class="ticker-change up">▲ +1.15%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">ICICIBANK</span> <span class="ticker-price">₹1,210.50</span> <span class="ticker-change up">▲ +0.40%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">TATAMOTORS</span> <span class="ticker-price">₹1,015.30</span> <span class="ticker-change down">▼ -0.75%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">SBIN</span> <span class="ticker-price">₹845.60</span> <span class="ticker-change up">▲ +0.55%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">BHARTIARTL</span> <span class="ticker-price">₹1,480.00</span> <span class="ticker-change up">▲ +1.05%</span></div>
+        <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">L&amp;T</span> <span class="ticker-price">₹3,620.10</span> <span class="ticker-change up">▲ +0.90%</span></div>
+    </div>
+
+    <!-- ========== TEAM SECTION ========== -->
+    <section class="section team-section bg-dots" id="team">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Our Team</h2>
+          <p class="section-subtitle">The 2026-2027 Council leading FTC KJSSE</p>
+        </div>
+
+        <!-- Domain Filter Tabs -->
+        <div class="team-tabs reveal">
+          <button class="team-tab active" type="button" data-filter="all">All</button>
+          <button class="team-tab" type="button" data-filter="mentors">Faculty Mentors</button>
+          <button class="team-tab" type="button" data-filter="core">Core Team</button>
+          <button class="team-tab" type="button" data-filter="fintech">FinTech</button>
+          <button class="team-tab" type="button" data-filter="public-markets">Public Markets</button>
+          <button class="team-tab" type="button" data-filter="private-markets">Private Markets</button>
+          <button class="team-tab" type="button" data-filter="marketing">Marketing</button>
+          <button class="team-tab" type="button" data-filter="operations">Operations</button>
+          <button class="team-tab" type="button" data-filter="creative">Creative &amp; PR</button>
+        </div>
+
+        <div class="team-tree">
+
+          <!-- GIANT GROUP PHOTO FOR "ALL" TAB -->
+          <div class="team-group giant-group-photo reveal" data-category="all">
+            <div class="giant-photo-card">
+              <div class="giant-photo-wrap">
+                <div class="giant-photo-placeholder">
+                  <div class="giant-photo-overlay">
+                    <h3 class="giant-photo-title">Council 2026-27</h3>
+                    <p class="giant-photo-subtitle">The team that made it all happen</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1. FACULTY MENTORS -->
+          <div class="team-group reveal hidden" data-category="mentors">
+            <div class="group-header">
+              <span class="group-badge gold">Faculty Mentors</span>
+            </div>
+            <div class="group-grid">
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/vaibhav.webp" alt="Dr. Vaibhav Prakash Vasani" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Dr. Vaibhav Prakash Vasani</h3>
+                  <span class="role-badge faculty">Faculty Mentor</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/swapnil.webp" alt="Mr. Swapnil Pawar" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Mr. Swapnil Pawar</h3>
+                  <span class="role-badge faculty">Faculty Mentor</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1.5. CORE TEAM -->
+          <div class="team-group reveal hidden" data-category="core">
+            <div class="group-header">
+              <span class="group-badge green">Core Team</span>
+            </div>
+            <div class="group-grid">
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/jeh.webp" alt="Jeh Dadina" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Jeh Dadina</h3>
+                  <span class="role-badge founder">Co-Founder · Core</span>
+                  <div class="card-socials">
+                    <a href="https://jehdadina.xyz" target="_blank" rel="noopener" class="social-link" title="Portfolio"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></a>
+                    <a href="https://linkedin.com/in/jehdadina" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/jehdadina-jpg" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://instagram.com/jehdadina" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/shrish.webp" alt="Shrish Alva" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Shrish Alva</h3>
+                  <span class="role-badge founder">Co-Founder · Core</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/vansh.webp" alt="Vansh Dang" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Vansh Dang</h3>
+                  <span class="role-badge founder">Co-Founder · Core</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/raunak.webp" alt="Raunak Kumar Gupta" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Raunak Kumar Gupta</h3>
+                  <span class="role-badge founder">Solution Architect</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. FINTECH (Starts first per instruction) -->
+          <div class="team-group reveal hidden" data-category="fintech">
+            <div class="group-header">
+              <span class="group-badge green">FinTech Team</span>
+            </div>
+            <div class="group-grid">
+              <!-- Head -->
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/jeh.webp" alt="Jeh Dadina" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Jeh Dadina</h3>
+                  <span class="role-badge founder">Founder · Head</span>
+                  <div class="card-socials">
+                    <a href="https://jehdadina.xyz" target="_blank" rel="noopener" class="social-link" title="Portfolio"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></a>
+                    <a href="https://linkedin.com/in/jehdadina" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/jehdadina-jpg" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://instagram.com/jehdadina" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Deputy Head -->
+              <div class="team-card deputy-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/jaineel.webp" alt="Jaineel Patel" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Jaineel Patel</h3>
+                  <span class="role-badge deputy">Deputy Head</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/patel-jaineel/" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/JRP1956" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Members (A to Z) -->
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/arav.webp" alt="Arav Arun" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Arav Arun</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://aravarun.in" target="_blank" rel="noopener" class="social-link" title="Portfolio"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></a>
+                    <a href="https://www.linkedin.com/in/arav-arun/" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/Arav-Arun" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/arav.arun/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/ayman.webp" alt="Ayman Shaikh" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Ayman Shaikh</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/aymzxd" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/aymanchamp-sudo" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/aymzxd/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/tamish.webp" alt="Tamish Upadhyay" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Tamish Upadhyay</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/tamish-upadhyay-641812279" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/Tamish-25" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/tanmay.webp" alt="Tanmay Tailor" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Tanmay Tailor</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/vedant.webp" alt="Vedant Palande" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Vedant Palande</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/vedant-palande-b8a5b637b" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/Vedanto28" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. PUBLIC MARKETS -->
+          <div class="team-group reveal hidden" data-category="public-markets">
+            <div class="group-header">
+              <span class="group-badge green">Public Markets Team</span>
+            </div>
+            <div class="group-grid">
+              <!-- Head -->
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/shrish.webp" alt="Shrish Alva" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Shrish Alva</h3>
+                  <span class="role-badge head">Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Deputy Head -->
+              <div class="team-card deputy-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/aryaman.webp" alt="Aryaman Nangalia" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Aryaman Nangalia</h3>
+                  <span class="role-badge deputy">Deputy Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Members (A to Z) -->
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/arwa.webp" alt="Arwa Merchant" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Arwa Merchant</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/chirayu.webp" alt="Chirayu Chandiramani" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Chirayu Chandiramani</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/harshi.webp" alt="Harshi Baid" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Harshi Baid</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/harshi-baid-494b36388" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/baidharshi" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/harshibaid_15" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/prakhar.webp" alt="Prakhar Bumb" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Prakhar Bumb</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/nalin.webp" alt="Nalin Mahendran" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Nalin Mahendran</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/nalin-mahendran-8928a640b" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/nalinmahendran-png" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. PRIVATE MARKETS -->
+          <div class="team-group reveal hidden" data-category="private-markets">
+            <div class="group-header">
+              <span class="group-badge green">Private Markets Team</span>
+            </div>
+            <div class="group-grid">
+              <!-- Head -->
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/vansh.webp" alt="Vansh Dang" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Vansh Dang</h3>
+                  <span class="role-badge founder">Founder · Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Deputy Head -->
+              <div class="team-card deputy-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/adyant.webp" alt="Adyant Singh" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Adyant Singh</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/adyant-singh-" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. MARKETING -->
+          <div class="team-group reveal hidden" data-category="marketing">
+            <div class="group-header">
+              <span class="group-badge gold">Marketing Team</span>
+            </div>
+            <div class="group-grid">
+              <!-- Head -->
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/arshia.webp" alt="Arshia Dang" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Arshia Dang</h3>
+                  <span class="role-badge head">Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Deputy Head -->
+              <div class="team-card deputy-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/varad.webp" alt="Varad Surve" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Varad Surve</h3>
+                  <span class="role-badge deputy">Deputy Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Members (A to Z) -->
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/malay.webp" alt="Malay Thakkar" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Malay Thakkar</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/malay-thakkar-49973a38b/" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/tmalay08" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/ritika.webp" alt="Ritika Mallah" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Ritika Mallah</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/yashashri.webp" alt="Yashashri Potdar" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Yashashri Potdar</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. OPERATIONS -->
+          <div class="team-group reveal hidden" data-category="operations">
+            <div class="group-header">
+              <span class="group-badge gold">Operations Team</span>
+            </div>
+            <div class="group-grid">
+              <!-- Head -->
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/jasraj.webp" alt="Jasraj Singh Bindra" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Jasraj Singh Bindra</h3>
+                  <span class="role-badge head">Head</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/jasraj-singh-bindra-09976131b/" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://github.com/JasrajSinghBindra" target="_blank" rel="noopener" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Deputy Head -->
+              <div class="team-card deputy-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/anshul.webp" alt="Anshul Das" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Anshul Das</h3>
+                  <span class="role-badge deputy">Deputy Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Members (A to Z) -->
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/nikunj.webp" alt="Nikunj Rathi" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Nikunj Rathi</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/shlok.webp" alt="Shlok Shah" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Shlok Shah</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="https://www.linkedin.com/in/shlok-shah-396b09348" target="_blank" rel="noopener" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="https://www.instagram.com/shlokshah31" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. CREATIVE & PR -->
+          <div class="team-group reveal hidden" data-category="creative">
+            <div class="group-header">
+              <span class="group-badge red">Creative &amp; PR Team</span>
+            </div>
+            <div class="group-grid">
+              <!-- Head -->
+              <div class="team-card head-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/drishti.webp" alt="Drishti Pachchigar" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Drishti Pachchigar</h3>
+                  <span class="role-badge head">Head</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Member -->
+              <div class="team-card">
+                <div class="card-photo-wrap"><img loading="lazy" decoding="async" src="assets/members/2026-2027/neeti.webp" alt="Neeti Singh" class="card-photo"></div>
+                <div class="card-body">
+                  <h3 class="card-name">Neeti Singh</h3>
+                  <span class="role-badge member">Member</span>
+                  <div class="card-socials">
+                    <a href="#" class="social-link" title="LinkedIn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="#" class="social-link" title="GitHub"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EVENTS SECTION ========== -->
+    <section class="section events-section bg-grid" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Our Events</h2>
+          <p class="section-subtitle">Flagship innovation events and hackathons</p>
+        </div>
+
+        <div class="events-grid stagger">
+          <div class="event-card reveal">
+            <div class="event-gallery" id="finnovatex-gallery">
+              <div class="event-gallery-slide active">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img1.webp" alt="FinnovateX Photo 1" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img2.webp" alt="FinnovateX Photo 2" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img4.webp" alt="FinnovateX Photo 4" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img5.webp" alt="FinnovateX Photo 5" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img6.webp" alt="FinnovateX Photo 6" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img7.webp" alt="FinnovateX Photo 7" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img8.webp" alt="FinnovateX Photo 8" />
+              </div>
+              <div class="event-gallery-slide">
+                <img loading="lazy" decoding="async" src="assets/events/finnovatex/img9.webp" alt="FinnovateX Photo 9" />
+              </div>
+              <div class="event-gallery-thumbs">
+                <button class="event-thumb-btn active" data-slide="0" aria-label="Photo 1"></button>
+                <button class="event-thumb-btn" data-slide="1" aria-label="Photo 2"></button>
+                <button class="event-thumb-btn" data-slide="2" aria-label="Photo 3"></button>
+                <button class="event-thumb-btn" data-slide="3" aria-label="Photo 4"></button>
+                <button class="event-thumb-btn" data-slide="4" aria-label="Photo 5"></button>
+                <button class="event-thumb-btn" data-slide="5" aria-label="Photo 6"></button>
+                <button class="event-thumb-btn" data-slide="6" aria-label="Photo 7"></button>
+                <button class="event-thumb-btn" data-slide="7" aria-label="Photo 8"></button>
+              </div>
+            </div>
+            <div class="event-body">
+              <div class="event-meta-info">
+                <span class="meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/></svg>
+                  28th March · 9AM - 5PM
+                </span>
+                <span class="meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Quadrangle B Building KJSSE
+                </span>
+              </div>
+              <h3 class="event-title">FinnovateX 2026</h3>
+              <p class="event-description">Where Finance Meets Code - FTC's flagship innovation event with a <strong>₹25,000 Prize Pool</strong> spanning two competitive arenas: <strong>Live Algorithmic Trading</strong> (4-hour strategy build tested for risk-adjusted returns) and <strong>Financial Fraud Detection</strong> (transaction dataset analysis &amp; AML risk framework).</p>
+              <div class="event-tags">
+                <span class="event-tag">₹25,000 Prize Pool</span>
+                <span class="event-tag">Algo Trading</span>
+                <span class="event-tag">Fraud Detection</span>
+                <span class="event-tag">100+ Participants</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Technical innovations and financial software built by FTC</p>
+        </div>
+
+        <div class="projects-grid stagger">
+          <div class="project-card reveal">
+            <div class="project-category">Quantitative Finance</div>
+            <h3 class="project-title">QuantEngine Backtester</h3>
+            <p class="project-description">An algorithmic backtesting framework for momentum and mean-reverting strategies against historical market tick data with automated risk-adjusted metrics.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Algo Trading</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">NumPy</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/FTC-KJSSE" target="_blank" rel="noopener" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-category">FinTech &amp; Machine Learning</div>
+            <h3 class="project-title">FinShield Fraud Engine</h3>
+            <p class="project-description">Real-time transaction fraud detection system utilizing supervised machine learning models to detect illicit transaction patterns and AML risk anomalies.</p>
+            <div class="project-tags">
+              <span class="project-tag">Machine Learning</span>
+              <span class="project-tag">FinTech</span>
+              <span class="project-tag">AML Risk</span>
+              <span class="project-tag">Scikit-Learn</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/FTC-KJSSE" target="_blank" rel="noopener" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-category">Market Analytics</div>
+            <h3 class="project-title">OptionChain Visualizer</h3>
+            <p class="project-description">Interactive financial analytics dashboard rendering real-time option chain heatmaps, implied volatility skew curves, and open interest indicators.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Options</span>
+              <span class="project-tag">Data Visualization</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/FTC-KJSSE" target="_blank" rel="noopener" class="project-link">View Project &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESEARCH & READINGS SECTION ========== -->
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Research &amp; Readings</h2>
+          <p class="section-subtitle">Documents and reports by the FTC team</p>
+        </div>
+
+        <div class="research-grid stagger">
+          <div class="research-card reveal">
+            <div class="research-type">Research Report</div>
+            <h3 class="research-title">Understanding NIFTY 50: A Beginner's Guide</h3>
+            <div class="research-meta">By FTC Research Team · 2025</div>
+            <p class="research-excerpt">A comprehensive guide to India's benchmark index - how it's calculated, its composition, and what drives its movements.</p>
+            <a href="#" class="research-link">Read Document →</a>
+          </div>
+
+          <div class="research-card reveal">
+            <div class="research-type">Analysis</div>
+            <h3 class="research-title">The Rise of UPI: India's Digital Payment Revolution</h3>
+            <div class="research-meta">By FTC FinTech Team · 2025</div>
+            <p class="research-excerpt">Exploring how UPI transformed India's payment landscape, its growth trajectory, and implications for the global fintech ecosystem.</p>
+            <a href="#" class="research-link">Read Document →</a>
+          </div>
+
+          <div class="research-card reveal">
+            <div class="research-type">Report</div>
+            <h3 class="research-title">Cryptocurrency Regulation in India: 2025 Update</h3>
+            <div class="research-meta">By FTC Research Team · 2025</div>
+            <p class="research-excerpt">An updated analysis of India's evolving stance on cryptocurrency, recent regulatory developments, and their impact on traders.</p>
+            <a href="#" class="research-link">Read Document →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PAST COUNCIL SECTION ========== -->
+    <section class="section past-council-section bg-dots" id="past-council">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Past Committee Members</h2>
+          <p class="section-subtitle">The legacy continues</p>
+        </div>
+
+        <div class="council-accordion reveal">
+          <div class="council-year">
+            <button class="council-year-header" id="council-2024" type="button">
+              <span>2025-26 Council</span>
+              <span class="arrow">▼</span>
+            </button>
+            <div class="council-year-body">
+              <div class="council-members-list">
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Dr. Vaibhav Prakash Vasani</div><div class="mini-role">Faculty Mentor</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Mr. Swapnil Pawar</div><div class="mini-role">Faculty Mentor</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Jeh Dadina</div><div class="mini-role">Founder · Head - FinTech</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Vansh Dang</div><div class="mini-role">Founder · Head - Public &amp; Private Markets</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Atharva Ghate</div><div class="mini-role">Public Markets</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Chirayu Chandiramani</div><div class="mini-role">Public Markets</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Nikunj Rathi</div><div class="mini-role">Public Markets</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Jaineel Patel</div><div class="mini-role">FinTech</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Naitik Gupta</div><div class="mini-role">FinTech</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Shreya Shetty</div><div class="mini-role">FinTech</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Doree Kasliwal</div><div class="mini-role">Head - Creative &amp; PR</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Vivin Dube</div><div class="mini-role">Head - Marketing &amp; Ops</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Anshul Das</div><div class="mini-role">Marketing &amp; Ops</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Jasraj Singh Bindra</div><div class="mini-role">Marketing &amp; Ops</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="council-member-mini">
+                  <div class="mini-card-inner">
+                    <div class="mini-card-front">
+                      <div><div class="mini-name">Varad Surve</div><div class="mini-role">Marketing &amp; Ops</div></div>
+                    </div>
+                    <div class="mini-card-back">
+                      <div class="mini-socials">
+                        <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="council-subgroup">
+                <div class="council-subgroup-title">FY Representatives</div>
+                <div class="council-members-list">
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Adyant Singh</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Anuj Singh</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Eshan Desai</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Kalpita Ray</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Malay Thakkar</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Mrudula Jadhav</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Nalin Mahendran</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Ruhan Advani</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="council-member-mini">
+                    <div class="mini-card-inner">
+                      <div class="mini-card-front">
+                        <div><div class="mini-name">Swar Seth</div><div class="mini-role">FY Representative</div></div>
+                      </div>
+                      <div class="mini-card-back">
+                        <div class="mini-socials">
+                          <a href="#" class="social-link" title="LinkedIn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                          <a href="#" class="social-link" title="GitHub"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                          <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-link" title="Instagram"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer-acm-style" id="footer">
+    <div class="footer-bg-watermark">FTC KJSSE</div>
+
+    <div class="container footer-acm-container">
+      <!-- Centered Logo -->
+      <div class="footer-logo-wrap reveal">
+        <div class="footer-logo-spacer" aria-hidden="true"></div>
+      </div>
+
+      <!-- Glassmorphic Cards Row -->
+      <div class="footer-cards-grid reveal">
+        <!-- Contact Information Card -->
+        <div class="footer-card">
+          <h3 class="footer-card-title">Contact Information</h3>
+          <div class="footer-card-list">
+            <a href="mailto:ftc.kjsse@somaiya.edu" class="footer-contact-item">
+              <svg class="footer-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>ftc.kjsse@somaiya.edu</span>
+            </a>
+            <div class="footer-contact-item">
+              <svg class="footer-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>KJ Somaiya School of Engineering, Mumbai</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Connect With Us Card -->
+        <div class="footer-card">
+          <h3 class="footer-card-title">Connect With Us</h3>
+          <div class="footer-social-icons">
+            <a href="https://www.instagram.com/ftc.kjsse/" target="_blank" rel="noopener" class="social-icon-btn instagram" title="Instagram">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/ftc-kjsse/" target="_blank" rel="noopener" class="social-icon-btn linkedin" title="LinkedIn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://chat.whatsapp.com/KyBHpGbwbPMJdnXsdNsn0k?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio&amp;fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadvcpbqj5CugGKczZsJNNF_b1fcfA7FfqMlNg4uTuvQd-53QqItjrKCzYM9qw_aem_PqByB28ObrV4PvMg6QSTKg" target="_blank" rel="noopener" class="social-icon-btn whatsapp" title="WhatsApp">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider & Bottom Copyright -->
+      <div class="footer-bottom-bar reveal">
+        <div class="footer-copyright">
+          &copy; 2026 FTC KJSSE. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
