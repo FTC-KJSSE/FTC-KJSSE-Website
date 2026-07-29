@@ -1,0 +1,209 @@
+/* ---------- HERO SECTION ---------- */
+.hero {
+  height: calc(100vh - 42px);
+  height: calc(100dvh - 42px);
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 24px;
+  margin-top: 8px;
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+
+.hero-logo {
+  width: clamp(110px, 14vw, 170px);
+  height: auto;
+  margin: -8px auto 8px;
+}
+
+.hero-title {
+  font-family: var(--font-mono);
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.hero-title .green { color: var(--bull-green); }
+.hero-title .red { color: var(--bear-red); }
+
+.hero-tagline {
+  font-family: var(--font-mono);
+  font-size: clamp(0.95rem, 2.2vw, 1.3rem);
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.hero-tagline .cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background: var(--bull-green);
+  margin-left: 4px;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.hero-location {
+  font-size: 0.88rem;
+  color: #ffffff;
+  margin-bottom: 6px;
+  font-family: var(--font-mono);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  line-height: 1;
+}
+
+.hero-location svg {
+  stroke: #ffffff;
+  opacity: 1;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* ---------- COMPACT HERO STATS BAR ---------- */
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 680px;
+  margin: 32px auto 0;
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+.stat-item {
+  background: rgba(10, 15, 26, 0.85);
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  transition: background var(--transition-fast);
+}
+
+.stat-item:hover {
+  background: rgba(15, 25, 38, 0.95);
+}
+
+.stat-number {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--bull-green);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.stat-label {
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* ---------- ILLUSTRATION (Hero bottom) ---------- */
+.hero-illustration {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+  line-height: 0;
+  flex: 1 1 auto;
+  max-height: 45vh;
+  min-height: 120px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-illustration svg {
+  width: 100%;
+  height: 100%;
+  max-height: 45vh;
+  display: block;
+}
+
+/* Building windows glow animation */
+.window-glow {
+  animation: windowFlicker 3s ease-in-out infinite alternate;
+}
+
+.window-glow:nth-child(odd) { animation-delay: 0.5s; }
+.window-glow:nth-child(3n) { animation-delay: 1.2s; }
+.window-glow:nth-child(5n) { animation-delay: 2s; }
+
+@keyframes windowFlicker {
+  0%, 40% { opacity: 0.3; }
+  50% { opacity: 1; }
+  60%, 100% { opacity: 0.6; }
+}
+
+/* Candlestick animation */
+.candlestick-anim {
+  animation: candlePulse 2s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+
+/* Bear & Bull SVG Animations - Anchored to Ground */
+.bear-anim, .bull-anim {
+  transform-origin: bottom center;
+}
+
+@keyframes candlePulse {
+  0% { transform: scaleY(0.85); }
+  100% { transform: scaleY(1); }
+}
+
+/* Circuit path animation */
+.circuit-path {
+  stroke-dasharray: 8 4;
+  animation: circuitFlow 3s linear infinite;
+}
+
+@keyframes circuitFlow {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -24; }
+}
