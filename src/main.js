@@ -1,5 +1,5 @@
 /**
- * app.js
+ * main.js
  * Main entry point - imports all modules and initializes the application.
  */
 
