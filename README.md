@@ -13,5 +13,5 @@
 
 ### Contributions
 
-We're keeping Pull Requests limited to FTC KJSSE members for now.
+We're keeping Pull Requests limited to FTC KJSSE members for now.  
 But don't let that stop you - fork the repo, play around with it, and build something awesome!
