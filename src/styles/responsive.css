@@ -288,48 +288,8 @@
     grid-template-columns: 1fr;
   }
   /* --- Footer --- */
-  .footer-acm-style {
-    padding: 40px 0 28px;
-  }
-
-  .footer-logo-wrap {
-    margin-top: -10px;
-    margin-bottom: 16px;
-  }
-
-  .footer-logo-spacer {
-    width: 50px;
-    height: 50px;
-  }
-
-  .footer-cards-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .footer-card {
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .council-accordion {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .footer-contact-item {
-    align-items: flex-start;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-
-  .footer-bg-watermark {
-    display: none;
+  .site-footer {
+    padding: 40px 0 24px;
   }
 }
 
@@ -435,30 +395,7 @@
   }
 
   /* --- Footer --- */
-  .footer-acm-style {
-    padding: 32px 0 22px;
-  }
-
-  .footer-logo-spacer {
-    width: 40px;
-    height: 40px;
-  }
-
-  .footer-card {
-    padding: 18px 20px;
-  }
-
-  .footer-card-title {
-    font-size: 0.95rem;
-    margin-bottom: 14px;
-  }
-
-  .social-icon-btn {
-    width: 40px;
-    height: 40px;
-  }
-
-  .footer-bg-watermark {
-    display: none;
+  .site-footer {
+    padding: 32px 0 20px;
   }
 }

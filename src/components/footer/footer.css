@@ -1,48 +1,40 @@
-/* ---------- FOOTER (KJSSE ACM STYLE) ---------- */
-.footer-acm-style {
-  background: linear-gradient(180deg, #040914 0%, #061024 100%);
+/* ---------- CENTERED MINIMALIST FINTECH FOOTER ---------- */
+.site-footer {
+  background: #000000;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 60px 0 35px;
   position: relative;
   overflow: hidden;
-  padding: 70px 0 35px;
-  border-top: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
 }
 
-.footer-bg-watermark {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100vw;
-  font-size: clamp(3rem, 12vw, 12rem);
-  font-weight: 900;
-  font-family: var(--font-sans);
-  color: rgba(255, 255, 255, 0.08);
-  -webkit-text-stroke: 1px rgba(0, 200, 83, 0.15);
-  text-align: center;
-  letter-spacing: 0.08em;
-  pointer-events: none;
-  white-space: nowrap;
-  user-select: none;
-  z-index: 1;
-  text-transform: uppercase;
-  line-height: 1;
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.footer-acm-container {
-  position: relative;
-  z-index: 2;
-}
-
-.footer-logo-wrap {
+.footer-center-content {
   display: flex;
-  justify-content: center;
-  margin-top: -20px;
-  margin-bottom: 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 28px;
+}
+
+/* Logo Box */
+.footer-logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 .footer-logo-img {
-  height: 85px;
+  height: 95px;
   width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 14px rgba(0, 200, 83, 0.25));
   transition: transform var(--transition-normal);
 }
 
@@ -50,119 +42,145 @@
   transform: scale(1.05);
 }
 
-.footer-logo-spacer {
-  width: 85px;
-  height: 85px;
-}
-
-.footer-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
-  max-width: 800px;
-  margin: 0 auto 24px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.footer-card {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 6px;
-  padding: 24px;
-  transition: all var(--transition-normal);
-  width: 100%;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-
-.footer-card:hover {
-  background: rgba(255, 255, 255, 0.07);
-  border-color: rgba(0, 200, 83, 0.4);
-  transform: translateY(-4px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-}
-
-.footer-card-title {
+.footer-logo-title {
   font-family: var(--font-sans);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin-bottom: 20px;
-}
-
-.footer-card-list {
-  list-style: none;
-  padding: 0;
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
 }
 
-.footer-card-item {
+/* Contact Info Row */
+.footer-contact-row {
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  line-height: 1.5;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
-.footer-card-item svg {
-  width: 18px;
-  height: 18px;
+.footer-info-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.footer-info-pill:hover {
+  background: rgba(0, 200, 83, 0.08);
+  border-color: rgba(0, 200, 83, 0.3);
+  color: var(--bull-green);
+  transform: translateY(-2px);
+}
+
+.footer-info-pill svg {
   color: var(--bull-green);
   flex-shrink: 0;
-  margin-top: 2px;
 }
 
-.footer-social-icons,
+/* Social Pills */
 .footer-social-row {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 14px;
-  margin-top: 8px;
-}
-
-.social-icon-btn {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  color: var(--text-secondary);
-  transition: all var(--transition-normal);
-  text-decoration: none;
+  gap: 12px;
 }
 
-.social-icon-btn.instagram:hover,
-.social-icon-btn.linkedin:hover,
-.social-icon-btn.whatsapp:hover {
+.footer-social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: all var(--transition-normal);
+}
+
+.footer-social-pill svg {
+  color: var(--bull-green);
+  transition: color var(--transition-fast);
+}
+
+.footer-social-pill:hover {
   background: var(--bull-green);
   border-color: var(--bull-green);
-  color: #0a0f1a;
-  box-shadow: none;
-  transform: translateY(-3px) scale(1.05);
+  color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 200, 83, 0.25);
 }
 
-.footer-bottom-bar {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 18px;
+.footer-social-pill:hover svg {
+  color: #000000;
+}
+
+/* Divider & Bottom Bar */
+.footer-bottom-divider {
+  width: 100%;
+  max-width: 320px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+  margin: 32px auto 20px;
+}
+
+.footer-bottom {
   text-align: center;
-  max-width: 860px;
-  margin: 0 auto;
 }
 
 .footer-copyright {
   font-family: var(--font-mono);
   font-size: 0.78rem;
   color: #64748b;
+  letter-spacing: 0.02em;
+}
+
+/* Responsive Footer */
+@media (max-width: 600px) {
+  .site-footer {
+    padding: 45px 0 25px;
+  }
+
+  .footer-center-content {
+    gap: 22px;
+  }
+
+  .footer-logo-img {
+    height: 52px;
+  }
+
+  .footer-logo-title {
+    font-size: 1.1rem;
+  }
+
+  .footer-contact-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-info-pill {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .footer-social-row {
+    gap: 8px;
+  }
+
+  .footer-social-pill {
+    padding: 7px 12px;
+    font-size: 0.78rem;
+  }
 }
