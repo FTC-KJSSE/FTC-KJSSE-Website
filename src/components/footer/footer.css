@@ -73,10 +73,9 @@
 }
 
 .footer-info-pill:hover {
-  background: rgba(0, 200, 83, 0.08);
-  border-color: rgba(0, 200, 83, 0.3);
-  color: var(--bull-green);
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--border-hover);
+  color: var(--text-primary);
 }
 
 .footer-info-pill svg {
@@ -116,8 +115,6 @@
   background: var(--bull-green);
   border-color: var(--bull-green);
   color: #000000;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 200, 83, 0.25);
 }
 
 .footer-social-pill:hover svg {

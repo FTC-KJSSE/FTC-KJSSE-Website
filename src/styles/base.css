@@ -23,13 +23,18 @@
   /* Text */
   --text-primary: #e8eaed;
   --text-bright: var(--text-primary);
-  --text-secondary: #9aa0a6;
-  --text-muted: #5f6368;
+  /* Both greys sit above the 4.5:1 contrast floor against --bg-card;
+     the old muted value was 2.6:1 and read as disabled text. */
+  --text-secondary: #b7bdc4;
+  --text-muted: #8e959d;
   --text-link: #8ab4f8;
 
   /* Borders */
   --border-subtle: rgba(255, 255, 255, 0.06);
   --border-accent: rgba(255, 255, 255, 0.1);
+  /* Cards answer the cursor by lifting their surface and edge, not by moving
+     or turning green. One token so every card behaves the same way. */
+  --border-hover: rgba(255, 255, 255, 0.2);
 
   /* Fonts */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -65,8 +70,9 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--bull-green) var(--bg-primary);
+  /* Let the browser draw its own scrollbar; `dark` keeps it matched to the
+     page instead of a bright default over a dark background. */
+  color-scheme: dark;
 }
 
 body {
@@ -77,13 +83,6 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: var(--bg-primary); }
-::-webkit-scrollbar-thumb {
-  background: var(--bull-green);
-  border-radius: 4px;
 }
 
 a {

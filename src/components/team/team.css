@@ -27,24 +27,29 @@
   transition: all var(--transition-normal);
 }
 
-.team-tab:hover {
-  color: var(--text-bright);
+/* Same underline the top navbar uses: grows in from the left, inset to sit
+   under the label rather than the tab's padding. */
+.team-tab::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  width: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  transition: width var(--transition-normal);
 }
 
+.team-tab:hover,
 .team-tab.active {
   color: var(--text-primary);
   font-weight: 600;
 }
 
+.team-tab:hover::after,
 .team-tab.active::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 8px;
-  right: 8px;
-  height: 2px;
-  background: var(--bull-green);
-  border-radius: 2px;
+  width: calc(100% - 28px);
 }
 
 .team-tree {
@@ -162,9 +167,7 @@
 
 .team-card:hover {
   background: rgba(18, 28, 44, 0.98);
-  border-color: rgba(255, 255, 255, 0.22);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  border-color: var(--border-hover);
 }
 
 .team-card.hidden {
@@ -261,7 +264,6 @@
 .card-socials .social-link:hover {
   color: var(--bull-green);
   background: rgba(0, 200, 83, 0.15);
-  transform: translateY(-1px);
 }
 
 .card-socials {

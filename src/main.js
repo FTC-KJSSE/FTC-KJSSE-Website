@@ -4,6 +4,7 @@
  */
 
 import { initCounterAnimation, initEventGallery, initScrollReveal } from './components/hero/effects.js';
+import { initPdfModal } from './components/research/pdf-modal.js';
 import { initTickerTape } from './components/ticker/ticker-tape.js';
 import { initAccordion, initMobileMenu, initNavbar, initScrollSpy, initSmoothScroll, initTeamFilter } from './components/navbar/navigation.js';
 
@@ -23,6 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initCounterAnimation();
   initEventGallery();
+
+  // Research document viewer
+  initPdfModal();
 
   // Live ticker (async - doesn't block the rest)
   initTickerTape();

@@ -86,7 +86,7 @@
 }
 
 .council-member-mini:hover {
-  border-color: rgba(0, 200, 83, 0.4);
+  border-color: var(--border-hover);
   background: rgba(255, 255, 255, 0.03);
 }
 

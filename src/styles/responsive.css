@@ -6,14 +6,13 @@
 /* ===== MEDIUM LAPTOP (1024-1439) ===== */
 @media (max-width: 1439px) {
   .stats-bar {
-    max-width: 500px;
+    max-width: 480px;
   }
 }
 
 @media (max-width: 1024px) {
   .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 360px;
+    max-width: 420px;
   }
 
   .hero {
@@ -137,44 +136,6 @@
     padding: 0 20px;
   }
 
-  /* --- Navbar --- */
-  .navbar {
-    pointer-events: auto;
-  }
-
-  .navbar .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-toggle {
-    display: flex;
-    pointer-events: auto;
-  }
-
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: calc(100% + 8px);
-    left: 20px;
-    right: 20px;
-    background: rgba(10, 15, 26, 0.96);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 24px;
-    gap: 16px;
-    border-radius: 12px;
-    border: 1px solid var(--border-accent);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.8);
-    pointer-events: auto;
-    z-index: 1000;
-  }
-
-  .nav-links.open { display: flex; }
-
   /* --- Hero --- */
   .hero {
     height: auto;
@@ -200,9 +161,16 @@
   }
 
   .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
     margin-top: 16px;
+  }
+
+  /* Three columns on a phone leave ~110px per tile, which the long labels
+     can't hold on one line. Let them wrap instead of pushing the bar wide. */
+  .stat-label {
+    white-space: normal;
+    font-size: 0.56rem;
+    line-height: 1.3;
   }
 
   .hero-illustration {
@@ -244,10 +212,10 @@
     background: rgba(0, 200, 83, 0.15);
     border-color: rgba(0, 200, 83, 0.4);
     color: var(--bull-green);
-    box-shadow: 0 0 12px rgba(0, 200, 83, 0.2);
   }
 
-  .team-tab.active::after {
+  /* Tabs are filled pills at this width, so the underline has no job. */
+  .team-tab::after {
     display: none;
   }
 
@@ -283,14 +251,91 @@
     height: 240px;
   }
 
+  /* --- Projects --- */
+  .project-body {
+    padding: 20px 8px 6px;
+  }
+
+  .project-card.featured .project-title {
+    font-size: 1.32rem;
+  }
+
   /* --- Research --- */
   .research-grid {
     grid-template-columns: 1fr;
   }
+
+  .research-vertical {
+    margin-top: 36px;
+  }
+
+  .research-vertical-count {
+    display: none;
+  }
+
+  /* --- PDF Modal --- */
+  .pdf-modal {
+    padding: 16px;
+  }
+
   /* --- Footer --- */
   .site-footer {
     padding: 40px 0 24px;
   }
+}
+
+/* ===== TABLET NAV (fits the full bar down to ~640) ===== */
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 24px;
+    padding: 10px 22px;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+}
+
+/* ===== PHONE NAV (hamburger only below this) ===== */
+@media (max-width: 640px) {
+  /* --- Navbar --- */
+  .navbar {
+    pointer-events: auto;
+  }
+
+  .navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-toggle {
+    display: flex;
+    pointer-events: auto;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 20px;
+    right: 20px;
+    background: rgba(10, 15, 26, 0.96);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--border-accent);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.8);
+    pointer-events: auto;
+    z-index: 1000;
+  }
+
+  .nav-links.open { display: flex; }
+
 }
 
 /* ===== MOBILE (≤480) ===== */
@@ -328,10 +373,6 @@
     width: 100%;
     height: auto;
     max-height: none;
-  }
-
-  .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   /* --- Team Tabs --- */
@@ -382,6 +423,25 @@
   /* --- Research --- */
   .research-card {
     padding: 20px;
+  }
+
+  .research-vertical-tag {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    padding: 6px 11px;
+  }
+
+  /* --- PDF Modal --- */
+  .pdf-modal {
+    padding: 10px;
+  }
+
+  .pdf-modal-download span {
+    display: none;
+  }
+
+  .pdf-modal-download {
+    padding: 7px 9px;
   }
 
   /* --- Past Council --- */

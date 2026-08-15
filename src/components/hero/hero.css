@@ -96,13 +96,13 @@
 /* ---------- COMPACT HERO STATS BAR ---------- */
 .stats-bar {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 6px;
   overflow: hidden;
-  max-width: 680px;
+  max-width: 540px;
   margin: 32px auto 0;
   position: relative;
   z-index: 10;
