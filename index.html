@@ -22,7 +22,26 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png" />
-  <link rel="stylesheet" href="src/styles/main.css" />
+
+  <!-- Listed individually rather than chained through @import in one sheet:
+       an @import is only discovered after its parent has downloaded and been
+       parsed, so the whole set used to arrive a round trip late. As links they
+       are all requested up front, in parallel. Load order still decides the
+       cascade, so keep base -> components -> responsive. -->
+  <link rel="stylesheet" href="src/styles/base.css" />
+  <link rel="stylesheet" href="src/styles/layout.css" />
+  <link rel="stylesheet" href="src/styles/utilities.css" />
+  <link rel="stylesheet" href="src/components/navbar/navbar.css" />
+  <link rel="stylesheet" href="src/components/hero/hero.css" />
+  <link rel="stylesheet" href="src/components/team/team.css" />
+  <link rel="stylesheet" href="src/components/events/events.css" />
+  <link rel="stylesheet" href="src/components/projects/projects.css" />
+  <link rel="stylesheet" href="src/components/research/research.css" />
+  <link rel="stylesheet" href="src/components/research/pdf-modal.css" />
+  <link rel="stylesheet" href="src/components/past-council/past-council.css" />
+  <link rel="stylesheet" href="src/components/ticker/ticker.css" />
+  <link rel="stylesheet" href="src/components/footer/footer.css" />
+  <link rel="stylesheet" href="src/styles/responsive.css" />
 </head>
 
 <body>
@@ -411,7 +430,10 @@
         <span class="ticker-separator">│</span>
         <div class="ticker-item"><span class="ticker-name">BHARTIARTL</span> <span class="ticker-price">₹1,480.00</span> <span class="ticker-change up">▲ +1.05%</span></div>
         <span class="ticker-separator">│</span>
+        <div class="ticker-item"><span class="ticker-name">ITC</span> <span class="ticker-price">₹495.25</span> <span class="ticker-change down">▼ -0.15%</span></div>
+        <span class="ticker-separator">│</span>
         <div class="ticker-item"><span class="ticker-name">L&amp;T</span> <span class="ticker-price">₹3,620.10</span> <span class="ticker-change up">▲ +0.90%</span></div>
+        <span class="ticker-separator">│</span>
     </div>
 
     <!-- ========== TEAM SECTION ========== -->
@@ -978,9 +1000,9 @@
 
         <div class="projects-grid stagger">
           <article class="project-card featured reveal">
-            <a href="https://frontend-gules-ten-tgpb0ogxv1.vercel.app/" target="_blank" rel="noopener" class="project-thumb" aria-label="Open the FTC Screener live app">
-              <img loading="lazy" decoding="async" src="assets/projects/ftc-screener.png" alt="FTC Screener dashboard showing the Market Mood Index and equity screener" />
-            </a>
+            <div class="project-thumb">
+              <img loading="lazy" decoding="async" width="1000" height="575" src="assets/projects/ftc-screener.webp" alt="FTC Screener dashboard showing the Market Mood Index and equity screener" />
+            </div>
             <div class="project-body">
               <div class="project-heading">
                 <h3 class="project-title">FTC Screener</h3>
